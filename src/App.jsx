@@ -8,7 +8,7 @@ const App = () => {
    <h1>sharan</h1>
    <h6>2+2</h6>
    <h6>num is {6+6}</h6>
-   <label htmlFor="sp"></label>
+    <h1>😂</h1>
     </>
    
   )
