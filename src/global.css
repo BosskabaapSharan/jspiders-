@@ -1,0 +1,29 @@
+.sp{
+    display: flex;
+
+ justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    background-color: aqua;
+    color: black;
+    margin: auto;
+}
+
+.sp ul{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.sp ul li a{
+ text-decoration: none;
+}
+
+.sp ul li{
+    list-style: none;
+} 
+
+
+
+
