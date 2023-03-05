@@ -23,7 +23,11 @@
 .sp ul li{
     list-style: none;
 } 
-
+ img{
+    height: 50px;
+    width: 60px;
+    margin: 10px;
+ }
 
 
 

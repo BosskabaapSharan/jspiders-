@@ -1,6 +1,7 @@
 import React from "react";
 import {createRoot} from "react-dom/client"
 
-import App1 from './App1';
 
-createRoot(document.getElementById("root")).render(<App1/>)
+import Nav5 from './Nav5';
+
+createRoot(document.getElementById("root")).render(<Nav5/>)

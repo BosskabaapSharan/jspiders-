@@ -1,0 +1,27 @@
+.dd ul{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    align-items: center; 
+}
+img{
+    height: 50px;
+    width: 60px;
+    margin: 10px;
+ }
+ .dd ul li a{
+    text-decoration: none;
+ }
+ .dd ul li {
+    list-style: none;
+ }
+ .aa{
+    display: flex;
+
+ justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    background-color: yellowgreen;
+    color: black;
+    margin: auto;
+ }
