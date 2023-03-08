@@ -28,7 +28,7 @@ const Netflix = () => {
         </li>
 
         <li>
-            <button type='submit' bgcolor="2px solid red">SIGN IN</button>
+            <button type='submit' >SIGN IN</button>
         </li>
     
     </ul>
