@@ -1,10 +1,15 @@
 import React from "react";
 import {createRoot} from "react-dom/client"
-import Data from './Data';
+
+
+
+
+import Spjson from './Spjson';
 
 
 
 
 
 
-createRoot(document.getElementById("root")).render(<Data/>)
+
+createRoot(document.getElementById("root")).render(<Spjson/>)

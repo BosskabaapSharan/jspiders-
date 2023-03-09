@@ -1,0 +1,12 @@
+.b{
+    border: 2px solid red;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.a{
+    display: flex;
+    justify-content: space-evenly;
+}

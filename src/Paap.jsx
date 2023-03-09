@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Paap = () => {
+const Paap = (x) => {
   return (
-    <img src="" alt="" />
+    <img src={x} alt="" />
   )
 }
 
