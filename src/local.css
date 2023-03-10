@@ -5,6 +5,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: aqua;
+    shape-margin: 2px ;
+    border-style: dashed;
+
+
 }
 .a{
     display: flex;

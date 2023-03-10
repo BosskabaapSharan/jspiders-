@@ -2,6 +2,8 @@ import React from 'react'
 
 const Details = (x) => {
   return (
+
+<>
     <div className='a'>
         <div className='b'>
             <h4>{x.d[0].studentName}</h4>
@@ -53,48 +55,7 @@ const Details = (x) => {
             <h4>{x.d[7].yearofPass}</h4>
             <h4>{x.d[7].branch}</h4>
         </div>
-        <div className='b'>
-        <h4>{x.d[8].studentName}</h4>
-            <h4>{x.d[8].studentId}</h4>
-            <h4>{x.d[8].yearofPass}</h4>
-            <h4>{x.d[8].branch}</h4>
-        </div>
-        <div className='b'>
-        <h4>{x.d[9].studentName}</h4>
-            <h4>{x.d[9].studentId}</h4>
-            <h4>{x.d[9].yearofPass}</h4>
-            <h4>{x.d[9].branch}</h4>
-        </div>
-        <div className='b'>
-        <h4>{x.d[10].studentName}</h4>
-            <h4>{x.d[10].studentId}</h4>
-            <h4>{x.d[10].yearofPass}</h4>
-            <h4>{x.d[10].branch}</h4>
-        </div>
-        <div className='b'>
-        <h4>{x.d[11].studentName}</h4>
-            <h4>{x.d[11].studentId}</h4>
-            <h4>{x.d[11].yearofPass}</h4>
-            <h4>{x.d[11].branch}</h4>
-        </div>
-        <div className='b'>
-        <h4>{x.d[12].studentName}</h4>
-            <h4>{x.d[12].studentId}</h4>
-            <h4>{x.d[12].yearofPass}</h4>
-            <h4>{x.d[12].branch}</h4>
-        </div>
-        <div className='b'>
-        <h4>{x.d[13].studentName}</h4>
-            <h4>{x.d[13].studentId}</h4>
-            <h4>{x.d[13].yearofPass}</h4>
-            <h4>{x.d[13].branch}</h4>
-        </div>
-        <div className='b'>
-        <h4>{x.d[14].studentName}</h4>
-            <h4>{x.d[14].studentId}</h4>
-            <h4>{x.d[14].yearofPass}</h4>
-            <h4>{x.d[14].branch}</h4>
-        </div>
+       
 
 
 
@@ -129,6 +90,62 @@ const Details = (x) => {
 
 
     </div>
+    <div className='a'>
+    
+        <div className='b'>
+        <h4>{x.d[8].studentName}</h4>
+            <h4>{x.d[8].studentId}</h4>
+            <h4>{x.d[8].yearofPass}</h4>
+            <h4>{x.d[8].branch}</h4>
+        </div>
+        <div className='b'>
+        <h4>{x.d[9].studentName}</h4>
+            <h4>{x.d[9].studentId}</h4>
+            <h4>{x.d[9].yearofPass}</h4>
+            <h4>{x.d[9].branch}</h4>
+        </div>
+        
+        <div className='b'>
+        <h4>{x.d[10].studentName}</h4>
+            <h4>{x.d[10].studentId}</h4>
+            <h4>{x.d[10].yearofPass}</h4>
+            <h4>{x.d[10].branch}</h4>
+        </div>
+        <div className='b'>
+        <h4>{x.d[11].studentName}</h4>
+            <h4>{x.d[11].studentId}</h4>
+            <h4>{x.d[11].yearofPass}</h4>
+            <h4>{x.d[11].branch}</h4>
+        </div>
+        
+
+<div className='b'>
+<h4>{x.d[12].studentName}</h4>
+    <h4>{x.d[12].studentId}</h4>
+    <h4>{x.d[12].yearofPass}</h4>
+    <h4>{x.d[12].branch}</h4>
+</div>
+<div className='b'>
+<h4>{x.d[13].studentName}</h4>
+    <h4>{x.d[13].studentId}</h4>
+    <h4>{x.d[13].yearofPass}</h4>
+    <h4>{x.d[13].branch}</h4>
+</div>
+<div className='b'>
+<h4>{x.d[14].studentName}</h4>
+    <h4>{x.d[14].studentId}</h4>
+    <h4>{x.d[14].yearofPass}</h4>
+    <h4>{x.d[14].branch}</h4>
+</div>
+<div className='b'>
+<h4>{x.d[15].studentName}</h4>
+    <h4>{x.d[15].studentId}</h4>
+    <h4>{x.d[15].yearofPass}</h4>
+    <h4>{x.d[15].branch}</h4>
+    </div>
+
+</div>
+</>
   )
 }
 
