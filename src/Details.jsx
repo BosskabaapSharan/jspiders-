@@ -71,6 +71,30 @@ const Details = (x) => {
             <h4>{x.d[10].yearofPass}</h4>
             <h4>{x.d[10].branch}</h4>
         </div>
+        <div className='b'>
+        <h4>{x.d[11].studentName}</h4>
+            <h4>{x.d[11].studentId}</h4>
+            <h4>{x.d[11].yearofPass}</h4>
+            <h4>{x.d[11].branch}</h4>
+        </div>
+        <div className='b'>
+        <h4>{x.d[12].studentName}</h4>
+            <h4>{x.d[12].studentId}</h4>
+            <h4>{x.d[12].yearofPass}</h4>
+            <h4>{x.d[12].branch}</h4>
+        </div>
+        <div className='b'>
+        <h4>{x.d[13].studentName}</h4>
+            <h4>{x.d[13].studentId}</h4>
+            <h4>{x.d[13].yearofPass}</h4>
+            <h4>{x.d[13].branch}</h4>
+        </div>
+        <div className='b'>
+        <h4>{x.d[14].studentName}</h4>
+            <h4>{x.d[14].studentId}</h4>
+            <h4>{x.d[14].yearofPass}</h4>
+            <h4>{x.d[14].branch}</h4>
+        </div>
 
 
 
