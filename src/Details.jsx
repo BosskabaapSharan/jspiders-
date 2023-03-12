@@ -138,7 +138,7 @@ const Details = (x) => {
     <h4>{x.d[14].branch}</h4>
 </div>
 <div className='b'>
-<h4>{x.d[15].studentName}</h4>
+<h4>{x.d[15].studentName}</h4>       
     <h4>{x.d[15].studentId}</h4>
     <h4>{x.d[15].yearofPass}</h4>
     <h4>{x.d[15].branch}</h4>

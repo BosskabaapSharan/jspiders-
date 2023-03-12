@@ -4,7 +4,8 @@ import {createRoot} from "react-dom/client"
 
 
 
-import Spjson from './Spjson';
+
+import Ram from './Ram';
 
 
 
@@ -12,4 +13,4 @@ import Spjson from './Spjson';
 
 
 
-createRoot(document.getElementById("root")).render(<Spjson/>)
+createRoot(document.getElementById("root")).render(<Ram/>)
