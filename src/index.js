@@ -4,13 +4,12 @@ import {createRoot} from "react-dom/client"
 
 
 
-
-import Ram from './Ram';
-
+import Array from './Array';
 
 
 
 
 
 
-createRoot(document.getElementById("root")).render(<Ram/>)
+
+createRoot(document.getElementById("root")).render(<Array/>)
