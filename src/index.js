@@ -4,7 +4,10 @@ import {createRoot} from "react-dom/client"
 
 
 
-import Array from './Array';
+
+
+
+import Nanu from './Nanu';
 
 
 
@@ -12,4 +15,4 @@ import Array from './Array';
 
 
 
-createRoot(document.getElementById("root")).render(<Array/>)
+createRoot(document.getElementById("root")).render(<Nanu/>)
