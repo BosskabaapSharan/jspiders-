@@ -18,7 +18,7 @@ const Todat = (x) => {
                 <td>{x.age}</td>
                 <td>{x.degree}</td>
                 <td>{x.branch}</td>
-                <img src={x.pic} alt=""  height="100px" width="100px"/>
+                <td><img src={x.pic} alt=""  height="100px" width="100px"/></td>
 
                 </tr>
             })}

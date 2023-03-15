@@ -7,7 +7,8 @@ import {createRoot} from "react-dom/client"
 
 
 
-import Nanu from './Nanu';
+
+import Counter from './Counter';
 
 
 
@@ -15,4 +16,4 @@ import Nanu from './Nanu';
 
 
 
-createRoot(document.getElementById("root")).render(<Nanu/>)
+createRoot(document.getElementById("root")).render(<Counter/>)
