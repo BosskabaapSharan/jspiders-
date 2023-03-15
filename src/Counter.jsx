@@ -19,11 +19,12 @@ export default class Counter extends Component {
   }
   render() {
     return (
-        <body className='x'>
-            
+            <body>
+                
+          
       
       <div className='a'>
-        <h2>{this.state.count}</h2>
+        <h2 id='z'>{this.state.count}</h2>
         <div className='b'>
         <button onClick={this.increment} id="c">+ increment</button>
         <button onClick={this.decrement} id="d">- decrement</button>
@@ -31,6 +32,7 @@ export default class Counter extends Component {
         </div>
       </div>
       </body>
+      
     )
   }
 }

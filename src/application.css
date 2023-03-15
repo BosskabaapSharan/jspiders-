@@ -1,33 +1,27 @@
-
-
-
-
-
+#root{
+    display: flex;
+    justify-content: space-around;
+}
 
 .a{
-    border: 2px solid black;
-     border-style: dashed;
-    height: 200px;
-    width: 200px;
-    background-color: aqua;
     text-align: center;
-     align-items: center;
-    
-    
+    padding-top: 100%;
+    justify-content: space-around;
 }
 .b{
-    display: flex;
-    align-items: center;
-
-    justify-items: center;
     
+    display: flex;
+    flex-direction: row;
 }
 #c{
     background-color: green;
+    box-sizing: border-box;
 }
 #d{
     background-color: red;
+    box-sizing: content-box;
 }
 #e{
     background-color: blue;
+    box-sizing: content-box;
 }
