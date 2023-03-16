@@ -8,7 +8,9 @@ import {createRoot} from "react-dom/client"
 
 
 
-import Counter from './Counter';
+
+
+import Fakeimg from './Fakeimg';
 
 
 
@@ -16,4 +18,4 @@ import Counter from './Counter';
 
 
 
-createRoot(document.getElementById("root")).render(<Counter/>)
+createRoot(document.getElementById("root")).render(<Fakeimg/>)
