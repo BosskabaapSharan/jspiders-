@@ -10,7 +10,9 @@ import {createRoot} from "react-dom/client"
 
 
 
-import Fakeimg from './Fakeimg';
+
+
+import Vedio from './Vedio';
 
 
 
@@ -18,4 +20,4 @@ import Fakeimg from './Fakeimg';
 
 
 
-createRoot(document.getElementById("root")).render(<Fakeimg/>)
+createRoot(document.getElementById("root")).render(<Vedio/>)
